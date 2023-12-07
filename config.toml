@@ -1,0 +1,79 @@
+baseurl = "https://nightsinlondon.com/"
+languageCode = "en-gb"
+title = "Nights in London"
+theme = "hugo-strata-theme"
+publishDir = "html"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Matt Gourd"
+	description = "Find out what’s going on at some of the best pubs, music venues and nightclubs in London."
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "<strong>Find out what's going on at some of the best pubs, music venues and nightclubs in London.</strong>"
+		# The icons will be shown if you enter your username
+
+		copyright = [
+			"&copy; Matt Gourd"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = ""
+		content = "|<h2>Pubs</h2>|<h2>Music venues</h2>|<h2>Clubs</h2>|\n|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------|\n|[Dogstar](http://dogstarbrixton.com)|[100 Club](http://www.the100club.co.uk/events-calendar)|[333](http://www.333oldstreet.com)|\n|[The Dublin Castle](http://thedublincastle.com)|[Brixton Academy](https://www.academymusicgroup.com/o2academybrixton/events/all)|[Basing House](http://basinghouse.co.uk/listings)|\n|[Fiddlers Elbow](http://www.thefiddlerselbow.co.uk/whos-playing-at-fiddlers-elbow)|[Cafe Oto](https://www.cafeoto.co.uk/events)|[Bloc](https://www.facebook.com/pg/blocwknd/events)|\n|[The Finsbury](http://www.thefinsbury.co.uk/listings)|[Camden Assembly](http://camdenassembly.com/whats-on)|[The Book Club](http://www.wearetbc.com/whats-on)|\n|[The Horse and Groom](https://www.thehorseandgroom.net/whats-on)|[Camden Underworld](https://www.theunderworldcamden.co.uk/gigs)|[Club 414](http://club414.org/calendar)|\n|[The Lexington](http://thelexington.co.uk/events.php)|[Dingwalls](http://dingwalls.com/listings)|[Club Aquarium](http://www.clubaquarium.co.uk/events)|\n|[The Old Blue Last](http://www.theoldbluelast.com/listings)|[Electric Ballroom](http://electricballroom.co.uk/whats-on)|[Corsica Studios](http://www.corsicastudios.com/whats-on)|\n|[The Old Queens Head](http://theoldqueenshead.com/whats-on)|[Electrowerkz](https://www.facebook.com/pg/Electrowerkz-497558173609057/events)|[Egg London](http://www.egglondon.co.uk/events)|\n|[Shacklewell Arms](https://www.shacklewellarms.com/events)|[The Garage](http://thegarage.london/listings)|[Electric Brixton](http://electricbrixton.uk.com/events.php)|\n||[Hammersmith Apollo](https://www.eventimapollo.com/events)|[Fabric](https://www.fabriclondon.com/club/listings)|\n||[Islington Academy](https://academymusicgroup.com/o2academyislington/events/all)|[Koko](http://www.koko.uk.com/listings)|\n||[Jazz Cafe](http://thejazzcafelondon.com/whats-on)|[Ministry of Sound](https://www.ministryofsound.com/club)|\n||[Nambucca](http://www.nambucca.co.uk/events)|[The Nest](https://www.facebook.com/pg/ilovethenest/events)|\n||[Oval Space](https://ovalspace.co.uk/events)|[Slimelight](https://www.facebook.com/pg/SlimelightOfficial/events)|\n||[Proud Camden](http://proudcamden.com/listings-tickets)|[Village Underground](http://www.villageunderground.co.uk/events)|\n||[Rye Wax (aka Bussey Building)](https://www.facebook.com/pg/ryewax/events)|[XoYo](http://xoyo.co.uk/whats-on/?range=weekends)|\n||[Scala](http://scala.co.uk/all-events-list)|\n||[The Water Rats](http://thewaterratsvenue.london/listings.html)|"
+
+	[params.contact]
+		hide  = true
+		title = "Get In Touch"
+		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "39.7889055,-120.5443524"
+		address = [
+			"1234 Somewhere Rd.",
+			"Nashville, TN 00000",
+			"United States"
+		]
+		phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "hello@example.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
