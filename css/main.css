@@ -2264,7 +2264,7 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				
 			}
 
 		table td {
@@ -2273,9 +2273,9 @@
 
 		table th {
 			color: #787878;
-			font-size: 0.9em;
-			font-weight: 400;
-			padding: 0 0.75em 0.75em 0.75em;
+			font-size: 1.9em;
+			font-weight: 600;
+			padding: 0 0.75em 0.75em 0.4em;
 			text-align: left;
 		}
 
@@ -2502,7 +2502,7 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 5em 2em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
